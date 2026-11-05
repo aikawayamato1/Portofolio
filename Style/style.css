@@ -1,4 +1,25 @@
-.body{
-    color: black;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Game Container */
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Game Canvas */
+#gameCanvas {
+    width: 800px;
+    height: 600px;
+
+    background-color: skyblue;
+
+    border: 3px solid white;
+    image-rendering: pixelated;
 }
